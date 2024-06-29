@@ -1,0 +1,16 @@
+SENTIMENT ANALYSIS REPORT
+
+5.1 
+1. The dataset used is called Datafiniti_amazon_Consumer_reviews_of_Amazon_Products.csv. The dataset was renamed for this project: Amazon_Reviews.csv
+2. The dataset consists of 5000 rows with 24 columns
+
+5.2
+1. The preprocessing used in this project are: extracting the reviews column, checking for missing entries, & removing stop words.
+
+5.3
+User functions were created to analyse the reviews for sentiment polarity, & similarity. The polarity function classified each review as either, positive, negative, or neutral. The similarity function compared the general meaning of reviews.  While the polarity function appeared to work for the sample reiews used, the similarity function did not. A warning message indicated that there could be an issue because of the small language modulr used in the this project.
+
+5.4
+In order to create a stronger model, a larger language module could be used. If computation time and capability allows, it may yield a better model. Also, a check on stop words that were removed, could show that some of the words that had been removed, do affect the overall sentiment, particularly when analysing a review. Also, a larger sample of reviews could be parsed for both user functions. This would provide a larger sample for analysis, & therefore further refining of both models could be made.
+
+
